@@ -13,10 +13,10 @@ Route::get('/', function () {
     
 });
 
-Route::get('/contact', function () {
+Route::get('/contato', function () {
     return view('contact');
 });
 
-Route::get('/produto', function () {
+Route::get('/produtos', function () {
     return view('products');
 });
